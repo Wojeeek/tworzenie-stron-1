@@ -10,7 +10,7 @@
 <body>
 
 <?php
-
+gf
 define("DOBRA_RADA","Bez chleba to sie nie najesz.");
 echo DOBRA_RADA.'<br>';
 echo strlen(DOBRA_RADA). '<br>';
