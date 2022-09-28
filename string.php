@@ -20,7 +20,7 @@ echo str_replace('chleba', 'mięsa', DOBRA_RADA). '<br>';
 echo strtolower(DOBRA_RADA). '<br>';
 echo strtoupper(DOBRA_RADA). '<br>';
 echo ucwords(DOBRA_RADA). '<br>';
-
+f
 ?>
 </body>
 </html>
