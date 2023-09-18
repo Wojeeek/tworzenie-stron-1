@@ -1,7 +1,10 @@
 <h1>Tabela czytelnicy</h1>
 <?php
 
-$query = 'SELECT Nr_czytelnika, Nazwisko, Imie, Data_ur, Ulica, Kod, Miasto, Data_zapisania, Data_skreslenia, Nr_legitymacji, Funkcja, Plec FROM czytelnicy';
+$query = 'SELECT Nr_czytelnika, Nazwisko, Imie, Data_ur, Ulica, Kod, Miasto, Data_zapisania, Data_skreslenia, Nr_legitymacji, Funkcja, Plec 
+FROM czytelnicy
+ORDER BY czytelnicy.PLEC';
+
 
 $result = mysqli_query($conn, $query);
 if (mysqli_num_rows($result) > 0) {
